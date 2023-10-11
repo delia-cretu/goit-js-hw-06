@@ -4,7 +4,7 @@ console.log("Number of categories: " + numberOfCateg);
 var numberOfElements;
 var categName;
 
-for (i = 0; i < numberOfCateg; i++) {
+for (var i = 0; i < numberOfCateg; i++) {
   categName = document
     .querySelectorAll(".item")
     [i].querySelector("h2").innerHTML;
