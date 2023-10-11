@@ -46,7 +46,7 @@ destroy.addEventListener("click", destroyBoxes);
 
 function destroyBoxes() {
   var boxCount = document.querySelectorAll(".box").length;
-  for (i = 0; i < boxCount; i++) {
+  for (var j = 0; j < boxCount; j++) {
     document.querySelector(".box").remove();
   }
 }
