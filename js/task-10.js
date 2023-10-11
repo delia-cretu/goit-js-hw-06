@@ -22,7 +22,7 @@ function createBoxes() {
   var amount = document.querySelector("#controls input").value;
   var boxSize = 20;
 
-  for (i = 0; i < amount; i++) {
+  for (var i = 0; i < amount; i++) {
     var newBox = document.createElement("div");
     newBox.classList.add("box");
 
